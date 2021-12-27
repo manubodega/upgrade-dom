@@ -1,11 +1,10 @@
 let vari = document.querySelector(".fn-insert-here")
-// console.log(vari)
+
 const apps = ['Facebook', 'Netflix', 'Instagram', 'Snapchat', 'Twitter']
 
 window.onload = () => {
-    var body = document.getElementsByTagName("BODY")[0];
-    console.log(body)
- 
+    var body = document.getElementsByTagName("body")[0];
+
     let div = document.createElement('div')
     let div2 = document.createElement('div')
     let div3 = document.createElement('div')
@@ -46,5 +45,4 @@ window.onload = () => {
     arrayp.forEach((item) => {
         item.appendChild(document.createElement('P')).innerText = 'Voy dentro!'
     })
-    // console.log(arrayp)
 }
