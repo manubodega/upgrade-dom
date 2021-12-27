@@ -39,7 +39,7 @@ window.onload = () => {
 
     let p4 = document.createElement('p')
     p4.innerText = "Voy en medio!"
-    body.insertBefore(p4,body[6])
+    body.insertBefore(p4,body.children[6])
 
     let arrayp = document.querySelectorAll('.fn-insert-here')
     arrayp.forEach((item) => {
